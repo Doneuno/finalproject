@@ -44,8 +44,8 @@ def PostList(request):
     context_dict = {
         'page': page, 
         'post_list': post_list, 
-        'header': 'Clean Blog', 
-        'subheader': 'A Blog Theme by Start Bootstrap'}
+        'header': 'Our Blog', 
+        'subheader': 'Blog made for Coderhouse course'}
     return render(request=request,
                 template_name='home/home.html',
                 context=context_dict
